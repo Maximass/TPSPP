@@ -60,7 +60,7 @@ if code=0 then
       if F(a)*F(b)<0 then
       begin
       //Рисуем график
-      x:=a
+      x:=a;
       while x<b do
          begin
          Chart1LineSeries1.AddXY(x,F(x));
