@@ -1,0 +1,82 @@
+object Form1: TForm1
+  Left = 789
+  Height = 388
+  Top = 117
+  Width = 534
+  Caption = 'Метод деления отрезка пополам'
+  ClientHeight = 388
+  ClientWidth = 534
+  LCLVersion = '1.0.12.0'
+  object Chart1: TChart
+    Left = 224
+    Height = 200
+    Top = 16
+    Width = 300
+    AxisList = <    
+      item
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+      end    
+      item
+        Alignment = calBottom
+        Minors = <>
+      end>
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    ParentColor = False
+    object Chart1LineSeries1: TLineSeries
+    end
+  end
+  object Memo1: TMemo
+    Left = 224
+    Height = 146
+    Top = 224
+    Width = 296
+    ScrollBars = ssVertical
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 64
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = 'Вычислить'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Edit1: TEdit
+    Left = 112
+    Height = 23
+    Top = 24
+    Width = 80
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 16
+    Top = 32
+    Width = 9
+    Caption = 'A'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 33
+    Height = 16
+    Top = 69
+    Width = 8
+    Caption = 'B'
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    Left = 112
+    Height = 23
+    Top = 69
+    Width = 80
+    TabOrder = 4
+  end
+end
